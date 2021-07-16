@@ -1,0 +1,73 @@
+@media (min-width: 980px){
+    .navbar__container{
+        height: 58px;
+    }
+    .navbar__img{
+        justify-content: center;
+        align-self: flex-start;
+        margin-left: 135px;
+    }
+    .main__img-container{
+        padding-top: 60px;
+        flex-direction: row;
+        margin-left: 135px;
+    }
+
+    .form__container{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+
+    .register__container{
+        width: 50%;
+        max-width: 500px;
+    }
+
+    .card__container{
+        width: 50%;
+        max-width: 425px;
+        min-height: 500px;
+    }
+    .main__container{
+        width: 100%;
+    }
+    .news__container{
+        width: 80%;
+        align-self: center;
+        align-items: flex-start;
+    }
+    .news__container p{
+        width: 100%;
+        text-align: left;
+    }
+    .host__container{
+        flex-direction: row;
+        width: 80%;
+    }
+    .host__section-one{
+        width: 50%;
+    }
+    .host__section-two{
+        width: 50%;
+        margin-left: 30px;
+    }
+    .doc__container{
+        flex-direction: row-reverse;
+        width: 80%;
+    }
+    .doc__section-one{
+        width: 50%;
+    }
+    .doc__section-two{
+        margin-right: 30px;
+        width: 50%;
+    }
+
+    .list__info-container{
+        width: 80%;
+        align-self: center;
+        align-items: flex-start;
+    }
+}

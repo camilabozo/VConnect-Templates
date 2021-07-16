@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+
+.navbar__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.navbar__img{
+    justify-content: center;
+    align-self: center;
+    width: 114px;
+    height: auto;
+    margin-top: 12px;
+}
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.41) 0%,rgba(0,0,0,0.45) 100%), url(https://vconnect.com.ar/wp-content/uploads/2021/07/Cordoba-Vichy-Connect.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+} 
+.main__img-container{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    padding: 50px 0;
+}
+
+.main__img{
+    width: 246;
+    height: 158.5px;
+    align-self: center;
+}
+
+.streaming__chat-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.streaming__container{
+    width: 100%;
+    padding: 100px 5px 30px 5px;
+}
+
+.chat__container{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    width: 95vw;
+    height: 70vh;
+    align-self: center;
+}
+
+.news__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.news__container h2{
+    font-size: 2.5rem;
+    color: black;
+    letter-spacing: -1px;
+    line-height: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.news__hr{
+    width: 60px;
+    border: 4px solid black;
+    margin-bottom: 30px;
+}
+
+.news__container p{
+    width: 80%;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.news__container b{
+    font-weight: 700;
+}
+
+.main__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%
+}
+
+.host__container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin-top:50px;
+    width: 80%;
+    height: auto;
+}
+
+.host__container-img{
+    width: 100%;
+    max-width: 480px;
+    border-radius: 20px;
+}
+
+.host__container h3{
+    align-self: flex-start;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+.host__container b{
+    font-weight: 700;
+}
+
+.host__container p{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 15px;
+}
+
+.doc__container{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin-top:50px;
+}
+
+.doc__container-img{
+    width: 100%;
+    max-width: 480px;
+    border-radius: 20px;
+}
+
+.doc__container h3{
+    align-self: flex-start;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+.doc__container b{
+    font-weight: 700;
+}
+
+.doc__container p{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 20px;
+}
+
+.info__container{
+    margin-top: 118px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+.info__container-img{
+    width: 70%;
+    max-width: 220px;
+}
+
+.info__container-p{
+    margin-top: 20px;
+    width: 80%;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.info__hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    border: none;
+    height: 1px;
+    background: black;
+}
+
+.list__info-container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin-top:10px;
+    width: 80%;
+    height: auto;
+}
+
+.list__info-title{
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+.list__info-container .list__info-subtitle{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+.list__info-container p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+.list__info-container ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+.list__info-container li{
+    line-height: 2.2rem;
+}
+
+.images-container--slider{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 60px;
+    height: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+}
+
+.images-container--img img{
+    scroll-snap-align: center;
+    width: 90%;
+    min-width: 280px;
+    max-width: 320px;
+    height: auto;
+    padding: 0 15px;
+    border-radius: 15px;
+}
+
+.images-container--img h3{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.images-container--img p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    font-weight: 500;
+}
+
